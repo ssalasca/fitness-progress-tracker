@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Progress Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Fitness Progress Tracker</h1>
+
+        <form id="workout-form">
+
+            <input type="text" id="workout-name" placeholder="Workout Name" required>
+
+            <input type="number" id="duration" placeholder="Duration (minutes)" required>
+
+            <input type="number" id="calories" placeholder="Calories Burned" required>
+
+            <textarea id="notes" placeholder="Workout Notes"></textarea>
+
+            <button type="submit">Add Workout</button>
+
+        </form>
+
+        <div id="workout-list">
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
